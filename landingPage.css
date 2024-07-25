@@ -1,6 +1,7 @@
 html, body {
     background-color: #E5E2DE;
     width: 90%;
+    font-family: "DM Sans", sans-serif;
 }
 
 .list {
@@ -17,11 +18,13 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+    font-family: "DM Mono", monospace;
 }
 
 .listItem {
     width: min-content;
     white-space: nowrap;
+    border-bottom: 1px solid black;
 }
 
 .hamburger {
