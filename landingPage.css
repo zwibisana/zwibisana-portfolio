@@ -32,10 +32,23 @@ html, body {
     display: none;
 }
 
+.yellow-background {
+    background-color: #F0F282;
+}
+
+.org-link {
+    text-decoration: none;
+    border-bottom: dashed 1px black;
+}
+
 /* Regular Navigation Bar for Desktop */
 @media screen and (min-width: 801px) {
     .nav-bar {
         display: block !important;
+    }
+
+    .profile-picture {
+        max-width: 400px;
     }
 }
 
@@ -44,6 +57,10 @@ html, body {
     .header {
         flex-direction: column;
         padding: 20px;
+    }
+
+    .profile-picture {
+        max-width: 200px;
     }
 
     .mobileHeader {
