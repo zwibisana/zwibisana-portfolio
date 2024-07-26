@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="landingPage.css">
     <!-- Hamburger Menu Icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Chevron Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- DM Sans Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,30 +48,73 @@
 
     <!-- MAIN -->
     <main>
-        <section>
-            <img src="/assets/images/profile-picture.png" class="profile-picture">
+        <div class="landing-page-introduction">
+            <section class="profile-picture-section">
+                <img src="/assets/images/profile-picture.png" class="profile-picture">
+            </section>
+            <section class="introduction">
+                <container class="main-text">
+                    <h1>hi there! my name is zahra wibisana.</h1>
+                    <h3>currently, i’m a student at northeastern university in boston, ma studying <mark class="yellow-background">computer science and design</mark> with a concentration in <mark class="yellow-background">interaction design</mark>. i also have a thing for typography, color grading, and collecting pottery!</h3>
+                </container>
+                <container class="roles-text">
+                    <div class="current-roles">
+                        <h4 style="font-family: 'DM Mono', monospace; font-weight: 300;">right now, i'm</h4>
+                        <ul>
+                            <li>a ui/ux designer at <a href="https://hackbeanpot.com/" class="org-link">hackbeanpot</a></li>
+                            <li>director of marketing at <a href="https://www.pagesforpediatrics.org/" class="org-link">pages for pediatrics</a></li>
+                        </ul>
+                    </div>
+                    <div class="previous-roles">
+                        <h4 style="font-family: 'DM Mono', monospace; font-weight: 300;">previously</h4>
+                        <ul>
+                            <li>a designer at <a href="https://www.tastemakersmag.com/" class="org-link">tastemakers magazine</a></li>
+                        </ul>
+                    </div>
+                </container>
+            </section>
+        </div>
+        <section class="important-projects">
+            <hr width="100%;" color="#C2B6A6" size="2" style="margin: 50px 0px;">
+            <container class="project-container">
+                <container class="project-text">
+                    <h1>alltimely</h1>
+                    <h4>case study & app redesign</h4>
+                    <p>Highschoolers are tired of outdated, confusing app designs. Our solution? A clean, robust design that simplified the process of scheduling club activities.</p>
+                    <button>view project<span class="material-symbols-outlined">chevron_right</span></button>
+                </container>
+                <container class="project-image">
+                    <img src="/assets/images/alltimely-preview.png" style="max-width: 90%;">
+                </container>
+            </container>
+            <hr width="100%;" color="#C2B6A6" size="2" style="margin: 50px 0px;">
+            <container class="project-container">
+                <container class="project-text">
+                    <h1>cafego</h1>
+                    <h4>capitalone cafe app design</h4>
+                    <p>The CapitalOne Cafe is a study-spot-staple of Northeastern students in Boston, MA. How do they not have an app yet?</p>
+                    <button>view project<span class="material-symbols-outlined">chevron_right</span></button>
+                </container>
+                <container class="project-image">
+                    <img src="/assets/images/cafego-preview.png" style="max-width: 90%;">
+                </container>
+            </container>
+            <hr width="100%;" color="#C2B6A6" size="2" style="margin: 50px 0px;">
+            <container class="project-container">
+                <container class="project-text">
+                    <h1>lolligo</h1>
+                    <h4>travel planner app design</h4>
+                    <p>Traveling with friends can be frustr-ating without options that everyone is interested in. What if we created a Spotify blend...for activities?</p>
+                    <button>view project<span class="material-symbols-outlined">chevron_right</span></button>
+                </container>
+                <container class="project-image">
+                    <img src="/assets/images/lolligo-preview.png" style="max-width: 90%;">
+                </container>
+            </container>
+            <hr width="100%;" color="#C2B6A6" size="2" style="margin: 50px 0px;">
         </section>
-        <section class="introduction">
-            <container class="main-text">
-                <h1>hi there! my name is zahra wibisana.</h1>
-                <h3>currently, i’m a student at northeastern university in boston, ma studying <mark class="yellow-background">computer science and design</mark> with a concentration in <mark class="yellow-background">interaction design</mark>. i also have a thing for typography, color grading, and collecting pottery!</h3>
-             </container>
-             <container class="roles-text">
-                <div class="current-roles">
-                    <h4 style="font-family: 'DM Mono', monospace; font-weight: 300;">right now, i'm</h4>
-                    <ul>
-                        <li>a ui/ux designer at <a href="https://hackbeanpot.com/" class="org-link">hackbeanpot</a></li>
-                        <li>director of marketing at <a href="https://www.pagesforpediatrics.org/" class="org-link">pages for pediatrics</a></li>
-                    </ul>
-                </div>
-                <div class="previous-roles">
-                    <h4 style="font-family: 'DM Mono', monospace; font-weight: 300;">previously</h4>
-                    <ul>
-                        <li>a designer at <a href="https://www.tastemakersmag.com/" class="org-link">tastemakers magazine</a></li>
-                    </ul>
-                </div>
-             </container>
-        </section>
+
+
 
     </main>
 

@@ -1,7 +1,8 @@
 html, body {
     background-color: #E5E2DE;
-    width: 90%;
+    width: 100%;
     font-family: "DM Sans", sans-serif;
+    margin: 0;
 }
 
 @font-face {
@@ -20,9 +21,9 @@ html, body {
 .header {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 0px;
     font-family: "DM Mono", monospace;
 }
 
@@ -39,6 +40,35 @@ html, body {
 .nav-bar {
     display: none;
 }
+
+.landing-page-introduction {
+    display: flex;
+}
+
+.profile-picture-section {
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.introduction {
+    width: 40%;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-text {
+    max-width: 40%;
+    margin-right: 5%;
+}
+
+.project-image {
+    width: 40%;
+}
+
+
 
 .yellow-background {
     background-color: #F0F282;
@@ -72,10 +102,22 @@ html, body {
         max-width: 200px;
     }
 
+    .project-container {
+        display:block;
+    }
+
+    .landing-page-introduction {
+        display:block;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
     .mobileHeader {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .hamburger {

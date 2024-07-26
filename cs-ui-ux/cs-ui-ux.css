@@ -1,0 +1,18 @@
+html, body {
+    background-color: #E5E2DE;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+.cs-ui-ux-text {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto auto;
+}
+
+.threeD {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto auto;
+}
