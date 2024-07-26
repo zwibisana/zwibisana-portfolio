@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Wibisana's Portfolio | Photography</title>
+    <link rel="stylesheet" href="photography.css">
+    <!-- Hamburger Menu Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- DM Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- DM Mono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER BAR-->
+    <header class="header">
+        <!-- FOR MOBILE -->
+        <div class="mobileHeader">
+            <a href="index.html" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+            <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+          </div>
+        <!-- FOR DESKTOP -->
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="listItem">
+                    <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+                </li>
+                <li class="listItem">
+                    <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+                </li>
+                <li class="listItem">
+                    <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+                </li>
+                <li class="listItem">
+                    <a href="/more/more.html" style="text-decoration: none; color: black;">also, zahra!</a>
+                </li>
+            </ul>   
+     </nav>
+    </header>
+
+
+    <main>
+
+        <section class="photography-previews">
+            <a href="hello" class="photography-wrapper portraiture" style="text-decoration: none; color: black;" >
+                <img src="/assets/images/semaj.jpeg">
+                <div class="content fade">
+                        <h1>portr<wbr/>aiture</h1>
+                        <h2 style="margin-top: 345px;">01</h2>
+                </div>
+            </a>
+            <a href="hello" class="photography-wrapper landscape" style="text-decoration: none; color: black;" >
+                <img src="/assets/images/landscape.JPG">
+                <div class="content fade">
+                    <h1>land<wbr/>scape</h1>
+                    <h2 style="margin-top: 345px;">02</h2>
+                </div>
+            </a>
+            <a href="hello" class="photography-wrapper urban" style="text-decoration: none; color: black;">
+                <img src="/assets/images/urban-car.JPG">
+                <div class="content fade">
+                    <h1>urban</h1>
+                    <h2>03</h2>
+                </div>
+            </a>
+            <a href="hello" class="photography-wrapper misc" style="text-decoration: none; color: black;">
+                <img src="/assets/images/peaches.jpeg">
+                <div class="content fade">
+                    <h1>misc</h1>
+                    <h2>04</h2>
+                </div>
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+
+<script src="photography.js"></script>
+</html>
