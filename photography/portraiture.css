@@ -1,0 +1,236 @@
+html, body {
+    background-color: #E5E2DE;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "redaction italic";
+    src: url("/assets/redaction-font.woff2") format('woff');
+}
+
+h1 {
+    font-size: 15rem;
+    letter-spacing: -0.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: 'a1 a2 a3 a3';
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero_title {
+    text-align: center;
+    display: block;
+    margin-top: 10rem;
+    margin-bottom: -4rem;
+}
+
+.projects {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-top: 2px solid black;
+}
+
+.projects_col {
+    border-right: 2px solid black;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.projects_col:last-child {
+    border-right: none;
+}
+
+.projects_col:nth-child(1) {
+    grid-area: a1;
+}
+
+.projects_col:nth-child(2) {
+    grid-area: a2;
+}
+
+.projects_col:nth-child(3) {
+    grid-area: a3;
+}
+
+
+.projects_col_item {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+.projects_col:nth-child(1) .projects_col_item {
+    width: 100%;
+    height: 32rem;
+}
+
+.projects_col:nth-child(1) .projects_col_item:nth-child(3) {
+    width: 100%;
+    height: 16rem;
+}
+
+.projects_col:nth-child(1) .projects_col_item:nth-child(4) {
+    width: 100%;
+    height: 48rem;
+}
+
+.projects_col:nth-child(2) .projects_col_item {
+    width: 100%;
+    height: 32rem;
+}
+
+.projects_col:nth-child(2) .projects_col_item:nth-child(2) {
+    width: 100%;
+    height: 16rem;
+}
+
+.projects_col:nth-child(2) .projects_col_item:last-child {
+    width: 100%;
+    height: 16rem;
+}
+
+.projects_col:nth-child(3) .projects_col_item:last-child {
+    width: 100%;
+    height: 16rem;
+}
+
+.projects_col:nth-child(3) .projects_col_item {
+    width: 100%;
+    height: 48rem;
+}
+
+.projects_col:nth-child(3) .projects_col_item:nth-child(1),
+.projects_col:nth-child(3) .projects_col_item:nth-child(3) {
+    width: 100%;
+    height: 32rem;
+}
+
+.projects_col_item_img {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+.projects_col_item_img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.outro {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.outro_title {
+    display: block;
+    text-align: center;
+}
+
+.outro_message h1 {
+    font-family: "redaction italic";
+    font-weight: 300;
+    font-size: 8rem;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 801px) {
+    .mobileFooter {
+        display: none;
+    }
+
+    .desktopFooter {
+        display: flex;
+        justify-content: space-between;
+        margin: 4% 5%;
+    }
+    
+    .desktopFooter a {
+        text-decoration: none;
+        font-family: "DM Mono", monospace;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 6rem;
+        letter-spacing: -0.4rem;
+    }
+    .hero_title {
+        margin-bottom: -2rem;
+    }
+    .hero {
+        padding-top: 3rem;
+    }
+    .projects_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects_col {
+        border-right: 2px solid black;
+    }
+    .outro_title {
+        font-size: 8.3rem;
+    }
+    .desktopFooter {
+        display: none;
+    }
+    .mobileFooter a {
+        display: block;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .mobileFooter {
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+}
+
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-Lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}

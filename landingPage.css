@@ -8,7 +8,7 @@ html, body {
 @font-face {
     font-family: "redaction italic";
     src: url("/assets/redaction-font.woff2") format('woff');
-  }
+}
 
 .list {
     display: grid;
@@ -32,6 +32,11 @@ html, body {
     width: min-content;
     white-space: nowrap;
     border-bottom: 1px solid black;
+}
+
+.listItem:hover, .listItem a:hover {
+    color: #bcb5a3 !important;
+    border-color: #bcb5a3 !important;
 }
 
 .main-text h3 {
@@ -222,7 +227,7 @@ html, body {
         background-color: transparent;
         border-color: transparent;
     }
-    
+
     .header {
         flex-direction: column;
         padding: 20px;

@@ -19,6 +19,7 @@ html, body {
 }
 
 .header {
+    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -26,12 +27,15 @@ html, body {
     padding: 20px 0px;
     font-family: "DM Mono", monospace;
     color: black;
+    z-index: 10;
+    background-color: transparent;
 }
 
 .listItem {
     width: min-content;
     white-space: nowrap;
     border-bottom: 1px solid black;
+    margin: 0rem 1.3rem;
 }
 
 .hamburger {
@@ -111,6 +115,10 @@ html, body {
     .nav-bar {
         display: block !important;
     }
+
+    .hamburger:hover {
+        cursor: pointer !important; 
+    }
 }
 
 /* For Mobile */
@@ -150,14 +158,23 @@ html, body {
     .header {
         flex-direction: column;
         padding: 20px;
-        color: black;
+        color: white;
     }
 
     .mobileHeader {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        color: black;
+        color: white !important;
+    }
+
+    .mobileHeader .home-link {
+        color: white !important;
+        line-height: 1.8;
+    }
+
+    .mobileHeader button {
+        color: white;
     }
 
     .nav-bar {
