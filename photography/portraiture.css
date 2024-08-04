@@ -10,6 +10,47 @@ html, body {
     src: url("/assets/redaction-font.woff2") format('woff');
 }
 
+.list {
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    column-gap: 20px;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: "DM Mono", monospace;
+    color: black;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.listItem {
+    width: min-content;
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+    margin: 0rem 1.3rem;
+}
+
+.listItem:hover, .listItem a:hover {
+    color: #bcb5a3 !important;
+    border-color: #bcb5a3 !important;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
+}
+
 h1 {
     font-size: 15rem;
     letter-spacing: -0.8rem;
@@ -53,7 +94,6 @@ h2 {
 
 .projects_col {
     border-right: 2px solid black;
-    width: 100%;
     height: fit-content;
     overflow: hidden;
 }
@@ -86,45 +126,24 @@ h2 {
     height: 32rem;
 }
 
-.projects_col:nth-child(1) .projects_col_item:nth-child(3) {
-    width: 100%;
-    height: 16rem;
-}
-
-.projects_col:nth-child(1) .projects_col_item:nth-child(4) {
-    width: 100%;
-    height: 48rem;
-}
-
 .projects_col:nth-child(2) .projects_col_item {
     width: 100%;
-    height: 32rem;
+    height: 26rem;
 }
 
 .projects_col:nth-child(2) .projects_col_item:nth-child(2) {
     width: 100%;
-    height: 16rem;
+    height: 38rem;
 }
 
 .projects_col:nth-child(2) .projects_col_item:last-child {
     width: 100%;
-    height: 16rem;
-}
-
-.projects_col:nth-child(3) .projects_col_item:last-child {
-    width: 100%;
-    height: 16rem;
+    height: 32rem;
 }
 
 .projects_col:nth-child(3) .projects_col_item {
     width: 100%;
     height: 48rem;
-}
-
-.projects_col:nth-child(3) .projects_col_item:nth-child(1),
-.projects_col:nth-child(3) .projects_col_item:nth-child(3) {
-    width: 100%;
-    height: 32rem;
 }
 
 .projects_col_item_img {
@@ -157,7 +176,6 @@ h2 {
 .outro_message h1 {
     font-family: "redaction italic";
     font-weight: 300;
-    font-size: 8rem;
     padding: 0;
     margin: 0;
 }
@@ -165,6 +183,10 @@ h2 {
 @media screen and (min-width: 801px) {
     .mobileFooter {
         display: none;
+    }
+
+    .outro_message h1 {
+        font-size: 8rem;
     }
 
     .desktopFooter {
@@ -178,10 +200,59 @@ h2 {
         font-family: "DM Mono", monospace;
         color: black;
     }
+
+    .nav-bar {
+        display: block !important;
+    }
+
+    .hamburger:hover {
+        cursor: pointer !important; 
+    }
 }
 
 @media screen and (max-width: 800px) {
-    h1 {
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+    }
+
+    .mobileHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: white !important;
+    }
+
+    .mobileHeader .home-link {
+        color: white !important;
+        line-height: 1.8;
+    }
+
+    .mobileHeader button {
+        color: white;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .list {
+        grid-auto-flow: row;
+        list-style-type: none;
+        row-gap: 40px;
+        column-gap: 0;
+        justify-items: center;
+    }
+
+    .hero_wrapper h1 {
         font-size: 6rem;
         letter-spacing: -0.4rem;
     }
@@ -191,15 +262,16 @@ h2 {
     .hero {
         padding-top: 3rem;
     }
+    .outro_message h1 {
+        font-size: 3rem !important;
+        letter-spacing: 0.0000025rem;
+    }
     .projects_wrapper {
         display: flex;
         flex-direction: column;
     }
     .projects_col {
         border-right: 2px solid black;
-    }
-    .outro_title {
-        font-size: 8.3rem;
     }
     .desktopFooter {
         display: none;

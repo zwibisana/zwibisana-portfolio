@@ -6,13 +6,25 @@ const dataCol1 = [
     {
         id: '1',
         title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        img: "/assets/images/jeko.jpeg",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Rocel",
+        img: "/assets/images/rocel.jpeg",
+        backgroundColor: "#d59e7c",
+    },
+    {
+        id: '1',
+        title: "Becca",
+        img: "/assets/images/becca.JPG",
+        backgroundColor: "#d59e7c",
+    },
+    {
+        id: '1',
+        title: "Mareisha",
+        img: "/assets/images/mareisha.jpeg",
         backgroundColor: "#d59e7c",
     },
     {
@@ -32,20 +44,20 @@ const dataCol1 = [
 const dataCol2 = [
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/urban-car.JPG",
+        title: "Ty",
+        img: "/assets/images/ty.jpeg",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/urban-car.JPG",
+        title: "Semaj",
+        img: "/assets/images/semaj.jpeg",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/urban-car.JPG",
+        title: "Brooke",
+        img: "/assets/images/brooke.jpeg",
         backgroundColor: "#64733a",
     },
     {
@@ -65,14 +77,14 @@ const dataCol2 = [
 const dataCol3 = [
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Wedding",
+        img: "/assets/images/wedding.jpeg",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Kent",
+        img: "/assets/images/kent.jpeg",
         backgroundColor: "#8f7353",
     },
     {
@@ -92,7 +104,7 @@ const dataCol3 = [
 const projectsSelector = {
     element: document.querySelector('.projects'),
     wrapper: document.querySelector('.projects_wrapper'),
-    outro: document.querySelector('.projects_outro')
+    outro: document.querySelector('.projects_outro'),
 };
 
 const isMobile = window.matchMedia('(max-width: 800px)').matches;
@@ -166,11 +178,11 @@ const animateMedia = (projectCols, difference) => {
         scrollTrigger: {
             trigger: projectsSelector.element,
             start: 'top top',
-            end: ()=> `${projectsSelector.element.offsetHeight}px bottom`,
+            end: () => `${projectsSelector.element.offsetHeight}px bottom`,
             scrub: true,
         },
     }).to(projectCols[1], {
-        duration: 5,
+        duration: 2,
         y: difference,
         ease: 'none',
     });
@@ -194,6 +206,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (!isMobile) initLenis();
     if (!isMobile) animateHero();
+    if (!isMobile) animateOutro();
 });
 
 if (!isMobile) window.addEventListener('resize', calcFilledSpace);
