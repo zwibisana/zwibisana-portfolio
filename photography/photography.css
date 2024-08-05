@@ -80,6 +80,7 @@ html, body {
     letter-spacing: -1px;
     font-size: 5rem;
     line-height: 3.5rem;
+    margin-top: 6.5rem;
 }
 
 .photography-wrapper h2 {
@@ -87,7 +88,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
+    margin-top: 380px;
     font-family: "redaction italic";
     font-weight: 200;
 }

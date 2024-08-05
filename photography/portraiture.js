@@ -11,32 +11,32 @@ const dataCol1 = [
     },
     {
         id: '1',
-        title: "Rocel",
-        img: "/assets/images/rocel.jpeg",
-        backgroundColor: "#d59e7c",
-    },
-    {
-        id: '1',
         title: "Becca",
         img: "/assets/images/becca.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
-        title: "Mareisha",
-        img: "/assets/images/mareisha.jpeg",
+        title: "Rocel",
+        img: "/assets/images/rocel.jpeg",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Chae",
+        img: "/assets/images/chae.jpeg",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Naomie",
+        img: "/assets/images/naomie.jpeg",
+        backgroundColor: "#d59e7c",
+    },
+    {
+        id: '1',
+        title: "Eleiza",
+        img: "/assets/images/eleiza.jpeg",
         backgroundColor: "#d59e7c",
     },
 ];
@@ -62,15 +62,15 @@ const dataCol2 = [
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/urban-car.JPG",
+        title: "Dedeen",
+        img: "/assets/images/dedeen.jpeg",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/urban-car.JPG",
-        backgroundColor: "#64733a",
+        title: "Wedding2",
+        img: "/assets/images/wedding2.jpeg",
+        backgroundColor: "#8f7353",
     },
 ];
 
@@ -89,14 +89,14 @@ const dataCol3 = [
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
-        backgroundColor: "#8f7353",
+        title: "Iya",
+        img: "/assets/images/iya2.JPG",
+        backgroundColor: "#64733a",
     },
     {
         id: '1',
-        title: "Jeko",
-        img: "/assets/images/semaj.jpeg",
+        title: "Gauri",
+        img: "/assets/images/gauri.jpg",
         backgroundColor: "#8f7353",
     },
 ];

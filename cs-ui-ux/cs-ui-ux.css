@@ -5,6 +5,48 @@ html, body {
     margin: 0;
 }
 
+.list {
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    column-gap: 20px;
+    padding: 0;
+}
+
+
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: "DM Mono", monospace;
+    color: black;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.listItem {
+    width: min-content;
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+    margin: 0rem 1.3rem;
+}
+
+.listItem:hover, .listItem a:hover {
+    color: #bcb5a3 !important;
+    border-color: #bcb5a3 !important;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
+}
+
 .cs-ui-ux-text {
     font-size: 5rem;
     text-align: center;
@@ -54,4 +96,59 @@ html.Lenis {
 
 .project-gallery-image {
     width: 80%;
+}
+
+@media screen and (min-width: 801px) {
+
+    .nav-bar {
+        display: block !important;
+    }
+
+    .hamburger:hover {
+        cursor: pointer !important; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+    }
+
+    .mobileHeader {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        color: white !important;
+    }
+
+    .mobileHeader .home-link {
+        color: white !important;
+        line-height: 1.8;
+    }
+
+    .mobileHeader button {
+        color: white;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .list {
+        grid-auto-flow: row;
+        list-style-type: none;
+        row-gap: 40px;
+        column-gap: 0;
+        justify-items: center;
+    }
+
 }

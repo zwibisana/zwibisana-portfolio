@@ -16,9 +16,31 @@
 </head>
 <body>
 
-    <header>
-
-    </header>
+   <!-- HEADER BAR-->
+   <header class="header">
+    <!-- FOR MOBILE -->
+    <div class="mobileHeader">
+        <a href="index.html" class="home-link" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+        <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+      </div>
+    <!-- FOR DESKTOP -->
+    <nav class="nav-bar">
+        <ul class="list">
+            <li class="listItem">
+                <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+            </li>
+            <li class="listItem">
+                <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+            </li>
+            <li class="listItem">
+                <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+            </li>
+            <li class="listItem">
+                <a href="/more/more.html" style="text-decoration: none; color: black;">also, zahra!</a>
+            </li>
+        </ul>   
+ </nav>
+</header>
 
     <main>
 
@@ -29,13 +51,28 @@
         <section class="project-gallery">
             <section class="project-gallery-wrapper">
                 <container class="project" style="margin-right: 30%;">
-                    <img src="/assets/images/alltimely-card.png" class="project-gallery-image">
+                    <a href="/cs-ui-ux/alltimely/alltimely.html"><img src="/assets/images/alltimely-card.png" class="project-gallery-image"></a>
+                   <!-- <div class="content">
+                        <h3>cafego</h3>
+                    </div> -->
                 </container>
                 <container class="project" style="margin-left: 50%;">
-                    <img src="/assets/images/cafego-card.png" class="project-gallery-image">
+                    <a href="/cs-ui-ux/cafego/cafego.html"><img src="/assets/images/cafego-card.png" class="project-gallery-image"></a>
+                    <!-- <div class="content">
+                        <h3>cafego</h3>
+                    </div> -->
                 </container>
                 <container class="project" style="margin-right: 30%;">
                     <img src="/assets/images/lolligo-card.png" class="project-gallery-image">
+                    <!-- <div class="content">
+                        <h3>lolligo</h3>
+                    </div> -->
+                </container>
+                <container class="project" style="margin-left: 30%;">
+                    <img src="/assets/images/second-eden.png" class="project-gallery-image">
+                    <!-- <div class="content">
+                        <h3>light em all</h3>
+                    </div> -->
                 </container>
             </section>
         </section>

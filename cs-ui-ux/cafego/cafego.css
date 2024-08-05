@@ -1,0 +1,302 @@
+html, body {
+    background-color: #E5E2DE;
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "redaction italic";
+    src: url("/assets/redaction-font.woff2") format('woff');
+}
+
+.list {
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    column-gap: 20px;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: "DM Mono", monospace;
+    color: black;
+    background-color: transparent;
+    margin: 0;
+}
+
+.listItem {
+    width: min-content;
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+    margin: 0rem 1.3rem;
+}
+
+.listItem:hover, .listItem a:hover {
+    color: #bcb5a3 !important;
+    border-color: #bcb5a3 !important;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.intro-heading {
+    padding: 0rem 10rem 3rem 10rem;
+}
+
+.intro-heading h1 {
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.intro-heading h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: "DM Mono";
+}
+
+.role-team-date {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.info-and-button {
+    padding-left: 38rem;
+}
+
+.box {
+    margin-right: 4rem;
+}
+
+.box h2 {
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    font-family: "DM Mono";
+}
+
+.box h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.unbold {
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.under-intro-heading {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 28rem;
+}
+
+.view-full-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+
+.view-full-button button {
+    background-color: transparent;
+    font-family: "DM Mono";
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.view-full-button button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.about {
+    background-color: white;
+    padding: 3rem 10rem 3rem 10rem;
+    z-index: 20;
+    line-height: 1.5;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+.images img {
+    transform: rotate(6deg);
+    width: 300px;
+}
+
+.images {
+    z-index: 10;
+    position: absolute;
+}
+
+.images .first-image {
+    margin-right: 1rem;
+}
+
+.images .second-image {
+    transform: translateY(110px) rotate(6deg); 
+}
+
+
+/* Regular Navigation Bar for Desktop */
+@media screen and (min-width: 801px) {
+    .nav-bar {
+        display: block !important;
+    }
+
+    .mobileFooter {
+        display: none;
+    }
+
+    .desktopFooter {
+        display: flex;
+        justify-content: space-between;
+        margin: 4% 5%;
+    }
+
+    .desktopFooter a {
+        text-decoration: none;
+        font-family: "DM Mono", monospace;
+        color: black;
+    }
+}
+
+/* Hamburger Menu for Mobile */
+@media screen and (max-width: 800px) {
+
+    .under-intro-heading {
+        display: inline-block;
+        margin: 1.5rem 0rem 0rem 0rem;
+        padding: 0;
+    }
+
+    .info-and-button {
+        padding: 1.5rem 3rem 2rem 3rem;
+        order: 2;
+    }
+
+    .view-full-button {
+        justify-content: flex-start;
+    }
+
+    .role-team-date {
+        flex-wrap: wrap;
+    }
+
+    .box h2 {
+        font-size: 1.2rem;
+    }
+
+    .box h4 {
+        font-size: 1.2rem;
+    }
+
+    .view-full-button button {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+        border: 1px solid black;
+    }
+
+    .intro-heading {
+        padding: 1rem 3rem;
+    }
+    
+    .intro-heading h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    
+    .intro-heading h2 {
+        font-size: 1.2rem;
+    }
+
+    .about {
+        padding: 1rem 3rem !important;
+        line-height: 1.5;
+    }
+
+    .images {
+        position: static !important;
+        order: 1;
+        display: flex !important;
+        justify-content: center !important;
+        padding: 0rem 5rem 0rem 5rem;
+    }
+
+    .images .second-image {
+        display: none !important;
+    }
+
+    .images .first-image {
+        margin: 0;
+        padding: 0;
+        transform: rotate(0deg) !important;
+    }
+
+    .desktopFooter {
+        display: none;
+    }
+
+    .mobileFooter a {
+        display: block;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .mobileFooter {
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .header {
+        flex-direction: column;
+        color: black;
+    }
+
+    .mobileHeader {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .list {
+        grid-auto-flow: row;
+        list-style-type: none;
+        row-gap: 40px;
+        column-gap: 0;
+        justify-items: center;
+    }
+}

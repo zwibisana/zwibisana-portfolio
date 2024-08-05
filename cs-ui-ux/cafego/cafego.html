@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Wibisana's Portfolio | CS + UI/UX | Cafego</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="cafego.css">
+    <!-- Hamburger Menu Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Chevron Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- DM Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- DM Mono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER BAR-->
+    <header class="header">
+        <!-- FOR MOBILE -->
+        <div class="mobileHeader">
+            <a href="index.html" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+            <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+          </div>
+        <!-- FOR DESKTOP -->
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="listItem">
+                    <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+                </li>
+                <li class="listItem">
+                    <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+                </li>
+                <li class="listItem">
+                    <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+                </li>
+                <li class="listItem">
+                    <a href="/more/more.html" style="text-decoration: none; color: black;">also, zahra!</a>
+                </li>
+            </ul>   
+     </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="introduction">
+
+            <section class="intro-heading">
+                <h2>cafego</h2>
+                <h1>The CapitalOne Cafe is a study-spot-staple of Northeastern students in Boston, MA. How do they not have an app yet?</h1>
+            </section>
+        <div class="under-intro-heading">
+            <section class="images">
+                <img class="first-image" src="/assets/images/cafego1.png">
+                <img class="second-image" src="/assets/images/cafego2.png">
+            </section>
+            <section class="info-and-button">
+                <container class="role-team-date">
+                    <div class="box">
+                        <h2>role</h2>
+                        <h4>ui/ux designer</h4>
+                    </div>
+                    <div class="box">
+                        <h2>date</h2>
+                        <h4>start <mark class="unbold">march 2024</mark></h4>
+                        <h4>end <mark class="unbold">april 2024</mark></h4>
+                    </div>
+                </container>
+
+                <container class="view-full-button">
+                    <a href="https://docs.google.com/presentation/d/1gTH5SakAHQy3Bd1iIQZRuIhqP45jx4s3LGptlY6yf_8/edit#slide=id.g2cb11a44156_0_15"><button>View full case study</button></a>
+                </container>
+            </section>
+        </div>
+
+        </section>
+
+        <section class="about">
+            <h2>about</h2>
+            <p>In my Design: Practice & Process class, we were asked to enhance the experience of an object, place, or service through our medium of choice. I knew from the start I would want to create something fun and fresh that helps people just like me!</p>
+            <p>Boston is known as the number one student city in the world, with over 325,000 undergraduate and graduate students. Students are constantly on the move whether on campus or off, trying to find places to study.</p>
+            <p>So with that, how can we enhance the experience of study cafes, such as the CapitalOne Cafe, a place where many Northeastern students find themselves at to study with and without friends?</p>
+        </section>
+    </main>
+
+    <!-- FOOTER BAR -->
+    <footer>
+        <div class="mobileFooter">
+            <h1>contact</h1>
+            <a href="">resume</a>
+            <a href="">linkedin</a>
+            <a href="">email</a>
+        </div>
+        <div class="desktopFooter">
+            <a href="">[resume]</a>
+            <a href="">[linkedin]</a>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
+<script src="cafego.js"></script>
+</html>

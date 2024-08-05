@@ -26,17 +26,27 @@ html, body {
     padding: 20px 0px;
     font-family: "DM Mono", monospace;
     color: black;
+    background-color: transparent;
 }
 
 .listItem {
     width: min-content;
     white-space: nowrap;
     border-bottom: 1px solid black;
+    margin: 0rem 1.3rem;
 }
 
 .listItem:hover, .listItem a:hover {
     color: #bcb5a3 !important;
     border-color: #bcb5a3 !important;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
 }
 
 .main-text h3 {
@@ -54,14 +64,6 @@ html, body {
     font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: -0.8px;
-}
-
-.hamburger {
-    display: none;
-}
-
-.nav-bar {
-    display: none;
 }
 
 

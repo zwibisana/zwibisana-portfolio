@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Wibisana's Portfolio | CS + UI/UX | AllTimely Case Study</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="alltimely.css">
+    <!-- Hamburger Menu Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Chevron Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- DM Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- DM Mono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER BAR-->
+    <header class="header">
+        <!-- FOR MOBILE -->
+        <div class="mobileHeader">
+            <a href="index.html" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+            <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+          </div>
+        <!-- FOR DESKTOP -->
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="listItem">
+                    <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+                </li>
+                <li class="listItem">
+                    <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+                </li>
+                <li class="listItem">
+                    <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+                </li>
+                <li class="listItem">
+                    <a href="/more/more.html" style="text-decoration: none; color: black;">also, zahra!</a>
+                </li>
+            </ul>   
+     </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="introduction">
+
+            <section class="intro-heading">
+                <h2>alltimely</h2>
+                <h1>Highschoolers are tired of outdated, confusing app designs. Our solution? A clean, robust design that simplified the process of scheduling club activities.</h1>
+            </section>
+        <div class="under-intro-heading">
+            <section class="images">
+                <img class="first-image" src="/assets/images/alltimely2.png">
+                <img class="second-image" src="/assets/images/alltimely1.png">
+            </section>
+            <section class="info-and-button">
+                <container class="role-team-date">
+                    <div class="box">
+                        <h2>role</h2>
+                        <h4>researcher</h4>
+                        <h4>ui/ux designer</h4>
+                    </div>
+                    <div class="box">
+                        <h2>team</h2>
+                        <h4>viviana staicu</h4>
+                    </div>
+                    <div class="box">
+                        <h2>date</h2>
+                        <h4>start <mark class="unbold">may 2022</mark></h4>
+                        <h4>end <mark class="unbold">may 2023</mark></h4>
+                    </div>
+                </container>
+
+                <container class="view-full-button">
+                    <a href="https://drive.google.com/drive/folders/1Y2dG__ER2yZJl5ptGI77j3WoA1FzxoyS"><button>View full case study</button></a>
+                </container>
+            </section>
+        </div>
+
+        </section>
+
+        <section class="about">
+            <h2>about</h2>
+            <p>The AllTimely app is a scheduling and activity management app designed specifically for schools and educational institutions. It allows students to easily find and sign up for extracurricular activities and clubs, while also providing helpful features for club leaders and advisors to manage and communicate with their groups.</p>
+            <p>As students, we understood how AllTimely could be a powerful tool for anyone looking to get involved in their school's community, so we made it our goal to increase extracurricular engagement and make using the app quicker and simpler through direct user research.</p>
+        </section>
+    </main>
+
+    <!-- FOOTER BAR -->
+    <footer>
+        <div class="mobileFooter">
+            <h1>contact</h1>
+            <a href="">resume</a>
+            <a href="">linkedin</a>
+            <a href="">email</a>
+        </div>
+        <div class="desktopFooter">
+            <a href="">[resume]</a>
+            <a href="">[linkedin]</a>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
+<script src="alltimely.js"></script>
+</html>
