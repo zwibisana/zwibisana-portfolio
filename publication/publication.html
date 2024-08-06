@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zahra Wibisana's Portfolio | Publication Design</title>
-    <link rel="stylesheet" href="publication.css">
+    <link rel="stylesheet" href="/cs-ui-ux/cs-ui-ux.css">
+    <!-- Hamburger Menu Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Circle Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- DM Sans Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,65 +19,107 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <header>
 
-    </header>
-
+   <!-- HEADER BAR-->
+   <header class="header">
+    <!-- FOR MOBILE -->
+    <div class="mobileHeader">
+        <a href="/index.html" class="home-link" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+        <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+      </div>
+    <!-- FOR DESKTOP -->
+    <nav class="nav-bar">
+        <ul class="list">
+            <li class="listItem">
+                <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+            </li>
+            <li class="listItem">
+                <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+            </li>
+            <li class="listItem">
+                <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+            </li>
+            <li class="listItem">
+                <a href="/more/more.html" style="text-decoration: none; color: black;">also, zahra!</a>
+            </li>
+        </ul>   
+ </nav>
+</header>
 
     <main>
+
+        <section class="cs-ui-ux-text">
+            <h1 style="line-height: 0.8; display: flex; justify-content: center;">publication design</h1>
+        </section>
 
         <section class="project-gallery">
             <section class="project-gallery-wrapper">
                 <container class="project" style="margin-right: 30%;">
-                    <img src="/assets/images/boston-tastemakers.png" class="project-gallery-image">
+                    <div class="project-gallery-image-parent">
+                        <a href="https://www.tastemakersmag.com/issue/issue-76" style="text-decoration: none; display: flex; justify-content: center; width: 100%;"><img src="/assets/images/boston-tastemakers.png" class="project-gallery-image child"></a>
+                    </div>
                    <div class="content">
                         <h3>2024</h3>
-                        <h2>Issue 76</h2>
-                        <h4>Tastemakers Magazine</h4>
-                    </div>
-                </container>
-                <container class="project" style="margin-left: 50%;">
-                    <img src="/assets/images/roots-eden.png" class="project-gallery-image">
-                    <div class="content">
-                        <h3>2023</h3>
-                        <h2>Roots & Rebirth</h2>
-                        <h4>EDEN Literary Magazine</h4>
-                    </div>
-                </container>
-                <container class="project" style="margin-right: 30%;">
-                    <img src="/assets/images/words-tastemakers.png" class="project-gallery-image">
-                    <div class="content">
-                        <h3>2024</h3>
-                        <h2>Issue 74</h2>
-                        <h4>Tastemakers Magazine</h4>
+                        <h2>issue 76</h2>
+                        <h4>tastemakers</h4>
                     </div>
                 </container>
                 <container class="project" style="margin-left: 30%;">
-                    <img src="/assets/images/second-eden.png" class="project-gallery-image">
+                    <div class="project-gallery-image-parent">
+                        <a href="https://www.tastemakersmag.com/issue/issue-74" style="text-decoration: none; display: flex; justify-content: center; width: 100%;"><img src="/assets/images/words-tastemakers.png" class="project-gallery-image child" style="width: 410px;"></a>
+                    </div>
+                    <div class="content">
+                        <h3>2024</h3>
+                        <h2>issue 74</h2>
+                        <h4>tastemakers</h4>
+                    </div>
+                </container>
+                <container class="project" style="margin-right: 30%;">
+                    <div class="project-gallery-image-parent">
+                        <a href="https://www.tastemakersmag.com/issue/issue-73" style="text-decoration: none; display: flex; justify-content: center; width: 100%;"><img src="/assets/images/tastemakers-cover.png" class="project-gallery-image child" style="width: 750px;"></a>
+                    </div>
+                   <div class="content">
+                        <h3>2024</h3>
+                        <h2>issue 73</h2>
+                        <h4>tastemakers</h4>
+                    </div>
+                </container>
+                <container class="project" style="margin-left: 30%;">
+                    <div class="project-gallery-image-parent">
+                        <a href="/cs-ui-ux/cafego/cafego.html" style="text-decoration: none; display: flex; justify-content: center; width: 105%;"><img src="/assets/images/roots-eden.png" class="project-gallery-image child" style="width: 550px;"></a>
+                    </div>
                     <div class="content">
                         <h3>2023</h3>
-                        <h2>One Second</h2>
-                        <h4>EDEN Literary Magazine</h4>
+                        <h2>roots & rebirth</h2>
+                        <h4>eden litmag</h4>
+                    </div>
+                </container>
+                <container class="project" style="margin-right: 30%;">
+                    <div class="project-gallery-image-parent">
+                        <a href="/cs-ui-ux/lolligo/lolligo.html" style="text-decoration: none; display: flex; justify-content: center; width: 100%;"><img src="/assets/images/second-eden.png" class="project-gallery-image child" style="width: 750px;"></a>
+                    </div>
+                   <div class="content">
+                        <h3>2023</h3>
+                        <h2>one second</h2>
+                        <h4>eden litmag</h4>
                     </div>
                 </container>
             </section>
         </section>
 
-        <section class="publication-design">
-            <h1>publication<br>design</h1>
-        </section>
-
-
     </main>
 
-
+    <!-- FOOTER BAR -->
     <footer>
-
+        <div class="desktopFooter">
+            <a href="">[resume]</a>
+            <h3 style="padding: 0; margin: 0; font-family: 'DM Sans'; font-weight: 800;">portfolio website designed and developed by <mark style="font-weight: 300; background-color: transparent;">zahra wibisana</mark></h3>
+            <a href="">[linkedin]</a>
+        </div>
     </footer>
-
+    
 </body>
 
 <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
-<script src="publication.js"></script>
+<script src="/cs-ui-ux/cs-ui-ux.js"></script>
 </html>

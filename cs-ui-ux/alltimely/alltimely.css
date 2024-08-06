@@ -110,7 +110,7 @@ html, body {
 .view-full-button {
     display: flex;
     justify-content: flex-end;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
 }
 
 .view-full-button button {
@@ -137,6 +137,13 @@ html, body {
 
 .about p {
     font-size: 1.2rem;
+}
+
+.next-and-back-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .images img {
@@ -269,9 +276,15 @@ html, body {
     }
 
     .hamburger {
-        display: block;
+        display: flex;
+        align-items: center;
         background-color: transparent;
         border-color: transparent;
+    }
+    
+    .mobileHeader a {
+        display:flex;
+        align-items: center;
     }
 
     .header {

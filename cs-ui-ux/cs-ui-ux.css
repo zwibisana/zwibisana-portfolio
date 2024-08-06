@@ -88,15 +88,98 @@ html.Lenis {
     padding-bottom: 5rem;
 }
 
+.project-gallery-wrapper .project-gallery-image:hover {
+    cursor: grab;
+}
+
+.project .content {
+    line-height: 0.5rem;
+}
+
+.project .content h2 {
+    font-size: 2rem;
+}
+
+.project .content h4, h3 {
+    font-family: "DM Mono", monospace;
+    font-weight: 200;
+}
+
+.project .content h3 {
+    opacity: 0.5;
+}
+
 .project-gallery {
     position: relative;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 
-.project-gallery-image {
-    width: 80%;
+.project-gallery-image-parent {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    filter: brightness(60%);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
+.child {
+    width: 600px;
+    background-size: cover;
+    transition: all 1.1s;
+    margin: 0;
+    padding: 0;
+}
+
+.project-gallery-image-parent:hover .child {
+    filter: brightness(100%);
+    transform: scale(1.18);
+}
+
+
+.project {
+    position: relative;
+}
+
+.project .content {
+    z-index: 5;
+    color: white;
+    position: relative;
+    top: -140px;
+    left: 30px;
+}
+
+.blue-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #718DEF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.yellow-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #F0F282;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.green-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #57c970;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
 
 @media screen and (min-width: 801px) {
 
@@ -107,14 +190,62 @@ html.Lenis {
     .hamburger:hover {
         cursor: pointer !important; 
     }
+
+    .desktopFooter {
+        display: flex;
+        justify-content: space-between;
+        margin: 4% 5%;
+    }
+    
+    .desktopFooter a {
+        text-decoration: none;
+        font-family: "DM Mono", monospace;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 800px) {
 
+    .cs-ui-ux-text {
+        font-size: 3rem;
+        align-content: center;
+        align-items: center;
+    }
+
+    .desktopFooter {
+        display: none;
+    }
+
+    .project-gallery-image-parent {
+        width: 260px;
+        height: 230px;
+    }
+
+    .project-gallery-image {
+        width: 450px !important;
+    }
+
+    .project .content h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .project .content {
+        top: -120px;
+    }
+
     .hamburger {
-        display: block;
+        display: flex;
+        align-items: center;
         background-color: transparent;
         border-color: transparent;
+    }
+    
+    .mobileHeader a {
+        display:flex;
+        align-items: center;
     }
 
     .header {
@@ -127,16 +258,7 @@ html.Lenis {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        color: white !important;
-    }
-
-    .mobileHeader .home-link {
-        color: white !important;
-        line-height: 1.8;
-    }
-
-    .mobileHeader button {
-        color: white;
+        color: black ;
     }
 
     .nav-bar {

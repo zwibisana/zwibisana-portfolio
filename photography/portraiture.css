@@ -221,23 +221,23 @@ h2 {
     .header {
         flex-direction: column;
         padding: 20px;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     .mobileHeader {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        color: white !important;
+        color: rgb(0, 0, 0) !important;
     }
 
     .mobileHeader .home-link {
-        color: white !important;
+        color: rgb(0, 0, 0) !important;
         line-height: 1.8;
     }
 
     .mobileHeader button {
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     .nav-bar {
