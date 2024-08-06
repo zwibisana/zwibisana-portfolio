@@ -1,6 +1,9 @@
 const menu = document.querySelector(".nav-bar");
 const main = document.querySelector("main");
 const footer = document.querySelector("footer");
+const header = document.querySelector("header");
+const mobileHeader = header.querySelector(".mobileHeader");
+const homeLink = mobileHeader.querySelector(".home-link");
 let open;
 
 function openMenu() {
@@ -8,6 +11,7 @@ function openMenu() {
         menu.style.display = "none";
         main.style.display = "block";
         footer.style.display = "block";
+        homeLink.style.color = "black !important";
         open = false;
     }
     else if (!open) {
@@ -17,16 +21,3 @@ function openMenu() {
         open = true;
     }
 }
-
-const lenis = new Lenis()
-
-lenis.on('scroll', (e) => {
-  console.log(e)
-})
-
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-}
-
-requestAnimationFrame(raf)
