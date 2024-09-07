@@ -181,11 +181,37 @@ h2 {
     text-align: center;
 }
 
-.outro_message h1 {
-    font-family: "redaction italic";
-    font-weight: 300;
-    padding: 0;
+.other-buttons {
+    border-right: 1px solid black;
+    text-decoration: none;
     margin: 0;
+}
+
+.other-buttons button {
+    padding: 1rem 12.5rem;
+    border-color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.2rem;
+}
+
+.other-buttons button:hover {
+    background-color: black;
+    color: #e4e2dd;
+}
+
+.other-buttons:last-child {
+    border-right: none;
+}
+
+.other-buttons-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 801px) {

@@ -27,24 +27,24 @@ const dataCol1 = [
         img: "/assets/images/urban/japan13.JPG",
         backgroundColor: "#d59e7c",
     },
-    {
-        id: '1',
-        title: "Japan",
-        img: "/assets/images/urban/japan2.JPG",
-        backgroundColor: "#d59e7c",
-    },
-    {
-        id: '1',
-        title: "Japan",
-        img: "/assets/images/urban/japan9.JPG",
-        backgroundColor: "#d59e7c",
-    },
-    {
-        id: '1',
-        title: "Beacon Street",
-        img: "/assets/images/urban/beacon.JPG",
-        backgroundColor: "#64733a",
-    },
+    // {
+    //     id: '1',
+    //     title: "Japan",
+    //     img: "/assets/images/urban/japan2.JPG",
+    //     backgroundColor: "#d59e7c",
+    // },
+    // {
+    //     id: '1',
+    //     title: "Japan",
+    //     img: "/assets/images/urban/japan9.JPG",
+    //     backgroundColor: "#d59e7c",
+    // },
+    // {
+    //     id: '1',
+    //     title: "Beacon Street",
+    //     img: "/assets/images/urban/beacon.JPG",
+    //     backgroundColor: "#64733a",
+    // },
 ];
 
 const dataCol2 = [
@@ -66,18 +66,18 @@ const dataCol2 = [
         img: "/assets/images/urban/japan7.PNG",
         backgroundColor: "#64733a",
     },
-    {
-        id: '1',
-        title: "Japan",
-        img: "/assets/images/urban/japan3.JPG",
-        backgroundColor: "#64733a",
-    },
-    {
-        id: '1',
-        title: "South End",
-        img: "/assets/images/urban/southie.JPG",
-        backgroundColor: "#64733a",
-    },
+    // {
+    //     id: '1',
+    //     title: "Japan",
+    //     img: "/assets/images/urban/japan3.JPG",
+    //     backgroundColor: "#64733a",
+    // },
+    // {
+    //     id: '1',
+    //     title: "South End",
+    //     img: "/assets/images/urban/southie.JPG",
+    //     backgroundColor: "#64733a",
+    // },
     // {
     //     id: '1',
     //     title: "Japan",
@@ -117,24 +117,24 @@ const dataCol3 = [
         img: "/assets/images/urban/urban-car.JPG",
         backgroundColor: "#8f7353",
     },
-    {
-        id: '1',
-        title: "South End",
-        img: "/assets/images/urban/southiecouple.JPG",
-        backgroundColor: "#8f7353",
-    },
-    {
-        id: '1',
-        title: "Vending Machine in Japan",
-        img: "/assets/images/urban/vendingmachine.JPG",
-        backgroundColor: "#64733a",
-    },
-    {
-        id: '1',
-        title: "Japan",
-        img: "/assets/images/urban/japan4.JPG",
-        backgroundColor: "#8f7353",
-    },
+    // {
+    //     id: '1',
+    //     title: "South End",
+    //     img: "/assets/images/urban/southiecouple.JPG",
+    //     backgroundColor: "#8f7353",
+    // },
+    // {
+    //     id: '1',
+    //     title: "Vending Machine in Japan",
+    //     img: "/assets/images/urban/vendingmachine.JPG",
+    //     backgroundColor: "#64733a",
+    // },
+    // {
+    //     id: '1',
+    //     title: "Japan",
+    //     img: "/assets/images/urban/japan4.JPG",
+    //     backgroundColor: "#8f7353",
+    // },
 ];
 
 const projectsSelector = {

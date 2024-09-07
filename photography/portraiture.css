@@ -89,11 +89,11 @@ h2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
 }
 
 .projects_col {
-    border-right: 2px solid black;
+    border-right: 1px solid black;
     height: fit-content;
     overflow: hidden;
 }
@@ -118,7 +118,7 @@ h2 {
 .projects_col_item {
     position: relative;
     overflow: hidden;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 .projects_col:nth-child(1) .projects_col_item {
@@ -128,7 +128,7 @@ h2 {
 
 .projects_col:nth-child(1) .projects_col_item:last-child {
     width: 100%;
-    height: 31.75rem;
+    height: 31.88rem;
 }
 
 .projects_col:nth-child(2) .projects_col_item {
@@ -170,7 +170,7 @@ h2 {
     overflow: hidden;
     padding: 0;
     margin: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 .outro_title {
@@ -178,11 +178,67 @@ h2 {
     text-align: center;
 }
 
-.outro_message h1 {
+/* .outro_message h1 {
     font-family: "redaction italic";
     font-weight: 300;
     padding: 0;
     margin: 0;
+} */
+
+/* .view-full-button button {
+    background-color: transparent;
+    font-family: "DM Mono";
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.view-full-button button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.next-and-back-container {
+    margin: 2rem 10rem;
+    display: flex;
+    justify-content: center;
+} */
+
+.other-buttons {
+    border-right: 1px solid black;
+    text-decoration: none;
+    margin: 0;
+}
+
+.other-buttons button {
+    padding: 1rem 12.5rem;
+    border-color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.2rem;
+}
+
+.other-buttons button:hover {
+    background-color: black;
+    color: #e4e2dd;
+}
+
+.other-buttons:last-child {
+    border-right: none;
+}
+
+.other-buttons-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 801px) {

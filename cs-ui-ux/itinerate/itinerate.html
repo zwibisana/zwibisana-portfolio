@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Wibisana's Portfolio | CS + UI/UX | Itinerate</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="itinerate.css">
+    <!-- Hamburger Menu Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Chevron Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- DM Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- DM Mono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER BAR-->
+    <header class="header">
+        <!-- FOR MOBILE -->
+        <div class="mobileHeader">
+            <a href="/index.html" style="text-decoration: none; color: black;">[zahra wibisana]</a>
+            <button onclick={openMenu()} class="hamburger"><span class="material-symbols-outlined">menu</span></button>
+          </div>
+        <!-- FOR DESKTOP -->
+        <nav class="nav-bar">
+            <ul class="list">
+                <li class="listItem">
+                    <a href="/cs-ui-ux/cs-ui-ux.html" style="text-decoration: none; color: black;">cs + ui/ux</a>
+                </li>
+                <li class="listItem">
+                    <a href="/photography/photography.html" style="text-decoration: none; color: black;">photography</a>
+                </li>
+                <li class="listItem">
+                    <a href="/publication/publication.html" style="text-decoration: none; color: black;">publication</a>
+                </li>
+                <li class="listItem">
+                    <a href="/hobbies/hobbies.html" style="text-decoration: none; color: black;">also, zahra!</a>
+                </li>
+            </ul>   
+     </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="introduction">
+
+            <section class="intro-heading">
+                <h2>itinerate</h2>
+                <h1>Traveling with friends can be frustrating without options that everyone is interested in. What if we created a Spotify blend...for activities?</h1>
+            </section>
+        <div class="under-intro-heading">
+            <section class="images">
+                <img class="first-image" src="/assets/images/itinerate1.png">
+                <img class="second-image" src="/assets/images/itinerate2.png">
+            </section>
+            <section class="info-and-button">
+                <container class="role-team-date">
+                    <div class="box">
+                        <h2>role</h2>
+                        <h4>ui/ux designer</h4>
+                    </div>
+                    <div class="box">
+                        <h2>date</h2>
+                        <h4>start <mark class="unbold">may 2024</mark></h4>
+                        <h4>end <mark class="unbold">june 2024</mark></h4>
+                    </div>
+                </container>
+
+                <container class="view-full-button">
+                    <a href="https://docs.google.com/presentation/d/1gTH5SakAHQy3Bd1iIQZRuIhqP45jx4s3LGptlY6yf_8/edit#slide=id.g2cb11a44156_0_15"style="margin-right: 4rem;"><button>view full case study</button></a>
+                </container>
+            </section>
+        </div>
+
+        </section>
+
+        <section class="about">
+            <h2>about</h2>
+            <p>From May 2024 to June 2024, I went on a study abroad trip to Japan where I took two design classes, Experience Design Principles (ARTG3462) and Experience and Interaction (ARTF2222). There, I learned basic experience mapping, how to create narratives from user journeys, and interactivity through AR.</p>
+            <p>After conducting user research interviews with my peers, I deducted that one of the biggest concerns common among students in my cohort were that making plans with friends can be difficult because people may have varying interests.</p>
+            <p>For my Experience and Interaction class, I decided to design a hi-fidelity prototype of a travel app using Figma that would help people plan trips with their friends through a “blend” that resembles the feature that shows shared favorite songs between two people on Spotify!</p>
+            <section class="next-and-back-container">
+                <container class="view-full-button">
+                    <a href="/cs-ui-ux/cafego/cafego.html"><button>previous</button></a>
+                </container>
+                <container class="view-full-button">
+                    <a href="https://drive.google.com/drive/folders/1Y2dG__ER2yZJl5ptGI77j3WoA1FzxoyS"><button>next</button></a>
+                </container>
+            </section>
+        </section>
+    </main>
+
+    <!-- FOOTER BAR -->
+    <footer>
+        <div class="mobileFooter">
+            <h1>contact</h1>
+            <a href="">resume</a>
+            <a href="">linkedin</a>
+            <a href="">email</a>
+        </div>
+        <div class="desktopFooter">
+            <a href="">[resume]</a>
+            <a href="">[linkedin]</a>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
+<script src="itinerate.js"></script>
+</html>
