@@ -6,19 +6,19 @@ const dataCol1 = [
     {
         id: '1',
         title: "Bamboo Grove",
-        img: "/assets/images/landscape/bamboo.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/bamboo.PNG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Kyoto View",
-        img: "/assets/images/landscape/kyotoview.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/kyotoview.jpg",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Maddy",
-        img: "/assets/images/landscape/maddykamo.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/maddykamo.PNG",
         backgroundColor: "#d59e7c",
     },
 ];
@@ -27,19 +27,19 @@ const dataCol2 = [
     {
         id: '1',
         title: "Shinkansen View",
-        img: "/assets/images/landscape/shinkansen.png",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/shinkansen.png",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Temple",
-        img: "/assets/images/landscape/temple1.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/temple1.PNG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Temple",
-        img: "/assets/images/landscape/temple2.png",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/temple2.png",
         backgroundColor: "#64733a",
     },
 ];
@@ -48,19 +48,19 @@ const dataCol3 = [
     {
         id: '1',
         title: "View on the bus",
-        img: "/assets/images/landscape/kyotobus.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/kyotobus.JPG",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Boston BW",
-        img: "/assets/images/landscape/bostonbw.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/bostonbw.jpg",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Ueno",
-        img: "/assets/images/landscape/ueno.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/ueno.PNG",
         backgroundColor: "#64733a",
     },
 ];
