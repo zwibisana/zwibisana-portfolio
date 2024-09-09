@@ -211,6 +211,7 @@ html, body {
     .profile-picture-section {
         min-width: 30%;
         height: 400px;
+        width: 400px;
         border-radius: 300px;
         margin-left: 5%;
     }
