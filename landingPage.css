@@ -205,6 +205,10 @@ html, body {
 /* Hamburger Menu for Mobile */
 @media screen and (max-width: 800px) {
 
+    html, body {
+        width: 100%;
+    }
+
     .desktopFooter {
         display: none;
     }
