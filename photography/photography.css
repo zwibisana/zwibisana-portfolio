@@ -7,7 +7,7 @@ html, body {
 
 @font-face {
     font-family: "redaction italic";
-    src: url("/assets/redaction-font.woff2") format('woff');
+    src: url("https://zwibisana.github.io/zwibisana-portfolio/assets/redaction-font.woff2") format('woff');
 }
 
 .list {
