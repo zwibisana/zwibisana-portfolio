@@ -1,4 +1,3 @@
-// import { gsap } from "/node_modules/gsap";
 import { ScrollTrigger } from "https://zwibisana.github.io/zwibisana-portfolio/node_modules/gsap/ScrollTrigger.js";
 gsap.registerPlugin(ScrollTrigger);
 
