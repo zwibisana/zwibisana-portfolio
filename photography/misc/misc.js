@@ -12,25 +12,25 @@ const dataCol1 = [
     {
         id: '1',
         title: "Brattle",
-        img: "/assets/images/misc/brattle2.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/brattle2.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Cat",
-        img: "/assets/images/misc/cat.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/cat.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Barber",
-        img: "/assets/images/misc/barber.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/barber.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Dyeing",
-        img: "/assets/images/misc/dyeing2.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/dyeing2.JPG",
         backgroundColor: "#8f7353",
     },
 ];
@@ -39,31 +39,31 @@ const dataCol2 = [
     {
         id: '1',
         title: "Brattle",
-        img: "/assets/images/misc/brattle3.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/brattle3.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Dyeing",
-        img: "/assets/images/misc/dyeing3.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/dyeing3.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Temple",
-        img: "/assets/images/misc/temple4.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/temple4.PNG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Herb",
-        img: "/assets/images/misc/herb.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/herb.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Temple",
-        img: "/assets/images/misc/temple5.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/temple5.PNG",
         backgroundColor: "#d59e7c",
     },
 ];
@@ -72,31 +72,31 @@ const dataCol3 = [
     {
         id: '1',
         title: "Temple",
-        img: "/assets/images/misc/temple3.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/temple3.PNG",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Dyeing",
-        img: "/assets/images/misc/dyeing1.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/dyeing1.JPG",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Woodwork",
-        img: "/assets/images/misc/woodwork.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/woodwork.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Peaches in NYC",
-        img: "/assets/images/misc/peaches.jpeg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/peaches.jpeg",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/misc/japan8.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/misc/japan8.PNG",
         backgroundColor: "#8f7353",
     },
 ];

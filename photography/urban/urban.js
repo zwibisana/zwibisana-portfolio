@@ -6,25 +6,25 @@ const dataCol1 = [
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan6.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan6.PNG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Becca",
-        img: "/assets/images/urban/acorn.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/acorn.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan5.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan5.JPG",
         backgroundColor: "#d59e7c",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan13.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan13.JPG",
         backgroundColor: "#d59e7c",
     },
     // {
@@ -51,19 +51,19 @@ const dataCol2 = [
     {
         id: '1',
         title: "Beacon Street",
-        img: "/assets/images/urban/beacon.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/beacon.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan1.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan1.JPG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan7.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan7.PNG",
         backgroundColor: "#64733a",
     },
     // {
@@ -96,25 +96,25 @@ const dataCol3 = [
     {
         id: '1',
         title: "Brattle Book Shop",
-        img: "/assets/images/urban/brattle.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/brattle.JPG",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan10.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan10.JPG",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Japan",
-        img: "/assets/images/urban/japan8.PNG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan8.PNG",
         backgroundColor: "#64733a",
     },
     {
         id: '1',
         title: "Urban Car in Japan",
-        img: "/assets/images/urban/urban-car.JPG",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/urban-car.JPG",
         backgroundColor: "#8f7353",
     },
     // {
