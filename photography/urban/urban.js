@@ -1,5 +1,5 @@
 // import { gsap } from "/node_modules/gsap";
-import { ScrollTrigger } from "/node_modules/gsap/ScrollTrigger.js";
+import { ScrollTrigger } from 'https://zwibisana.github.io/zwibisana-portfolio/ScrollTrigger.js';
 gsap.registerPlugin(ScrollTrigger);
 
 const dataCol1 = [
