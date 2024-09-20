@@ -1,4 +1,4 @@
-import { ScrollTrigger } from 'zwibisana-portfolio/ScrollTrigger.js';
+import { ScrollTrigger } from 'https://zwibisana.github.io/zwibisana-portfolio/node_modules/gsap/ScrollTrigger.js';
 gsap.registerPlugin(ScrollTrigger);
 
 const dataCol1 = [
