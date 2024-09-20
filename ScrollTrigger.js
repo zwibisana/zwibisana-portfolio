@@ -9,7 +9,7 @@
 */
 
 /* eslint-disable */
-import { Observer, _getTarget, _vertical, _horizontal, _scrollers, _proxies, _getScrollFunc, _getProxyProp, _getVelocityProp } from "./Observer.js";
+import { Observer, _getTarget, _vertical, _horizontal, _scrollers, _proxies, _getScrollFunc, _getProxyProp, _getVelocityProp } from "gsap/Observer.js";
 
 var gsap,
     _coreInitted,
