@@ -27,7 +27,7 @@ const dataCol2 = [
     {
         id: '1',
         title: "Shinkansen View",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/shinkansen.png",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/shinkansen.PNG",
         backgroundColor: "#64733a",
     },
     {
@@ -39,7 +39,7 @@ const dataCol2 = [
     {
         id: '1',
         title: "Temple",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/temple2.png",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/temple2.PNG",
         backgroundColor: "#64733a",
     },
 ];
@@ -54,7 +54,7 @@ const dataCol3 = [
     {
         id: '1',
         title: "Boston BW",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/bostonbw.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/bostonbw.JPG",
         backgroundColor: "#8f7353",
     },
     {
