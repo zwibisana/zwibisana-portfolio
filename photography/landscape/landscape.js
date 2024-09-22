@@ -48,13 +48,13 @@ const dataCol3 = [
     {
         id: '1',
         title: "View on the bus",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/kyotobus.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/kyotobus.jpg",
         backgroundColor: "#8f7353",
     },
     {
         id: '1',
         title: "Boston BW",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/landscape/bostonbw.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/bostonbw.jpg",
         backgroundColor: "#8f7353",
     },
     {
