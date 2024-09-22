@@ -6,7 +6,7 @@ const dataCol1 = [
     {
         id: '1',
         title: "Japan",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/images/urban/japan6.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/japan6.jpg",
         backgroundColor: "#d59e7c",
     },
     {
