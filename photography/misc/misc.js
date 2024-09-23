@@ -96,7 +96,7 @@ const dataCol3 = [
     {
         id: '1',
         title: "Japan",
-        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/japan8.jpg",
+        img: "https://zwibisana.github.io/zwibisana-portfolio/assets/urban/japan8.jpg",
         backgroundColor: "#8f7353",
     },
 ];
