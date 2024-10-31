@@ -183,6 +183,11 @@ html.Lenis {
 
 @media screen and (min-width: 801px) {
 
+
+    .mobileFooter {
+        display: none;
+    }
+    
     .nav-bar {
         display: block !important;
     }
